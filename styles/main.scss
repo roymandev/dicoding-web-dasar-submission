@@ -82,6 +82,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: $round-size;
+    flex-shrink: 0;
   }
 }
 
