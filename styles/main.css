@@ -113,14 +113,14 @@ body {
   height: 22px;
 }
 
-.applist {
+.gridlist {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: 0;
   list-style: none;
   gap: 1rem;
 }
-.applist__item {
+.gridlist__item {
   display: flex;
   flex-direction: column;
   transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
@@ -133,15 +133,15 @@ body {
   padding: 0.5rem 0.75rem;
   outline: none;
 }
-.applist__item:hover, .applist__item:focus {
+.gridlist__item:hover, .gridlist__item:focus {
   border-color: #94a3b8;
   box-shadow: 2px 2px 4px 0px hsla(215deg, 25%, 27%, 0.2);
 }
-.applist__item--more:hover {
+.gridlist__item--more:hover {
   border-color: #e2e8f0;
   box-shadow: none;
 }
-.applist__name {
+.gridlist__name {
   margin-bottom: 0.25rem;
 }
 
