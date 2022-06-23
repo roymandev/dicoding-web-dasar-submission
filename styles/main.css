@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  font-family: "Outfit";
+  font-family: "Outfit", sans-serif;
   background-color: #e1e7ef;
   color: #344256;
 }
