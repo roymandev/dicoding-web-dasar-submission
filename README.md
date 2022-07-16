@@ -1,3 +1,3 @@
 # Dicoding Web Dasar Submisson
 
-This repo is static website for my submission in dicoding from IDCamp scholarship programs.
+This repo is my submission in Dicoding "Belajar Dasar Pemrograman JavaScript" class.
